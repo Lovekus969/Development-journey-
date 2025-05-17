@@ -1,9 +1,11 @@
-
-//Arrays in script is Mutable 
-let array = ["strome", "tsunami", "mango"];
-array[0] = "badboy";
-console.log(array); // ["badboy", "tsunami", "mango"]
-let arr = [1, 2];
-arr[5] = 99;
-console.log(arr);       // [1, 2, <3 empty items>, 99]
-console.log(arr.length); // 6
+let arr=[1,2,3,4,4];
+let newarrr = [...arr];
+console.log(newarrr);
+let str ='Bhavneet :';
+let char = [...str];
+console.log(char);
+ const num1 = [1,3];
+ const num3 = [2,5];
+ const add = [...num1,...num3];
+ console.log("This is how it look like after Shader");
+ console.log(add);
