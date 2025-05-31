@@ -40,3 +40,10 @@ Use textContent for raw, fast, and secure data extraction.
 Use innerText only when you care about what the user actually sees.
 
 Use innerHTML when you're injecting complex HTML, but sanitize it.
+
+Use console.log() to log values (text, numbers, or properties).
+
+Use console.dir() when you're debugging and need to explore the object's internals.
+
+You can't chain .property after console.dir(), because it doesn't return the object—it just logs it.
+
