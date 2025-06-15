@@ -47,3 +47,6 @@ Use console.dir() when you're debugging and need to explore the object's interna
 
 You can't chain .property after console.dir(), because it doesn't return the object—it just logs it.
 
+
+TOday we will see some linklist data structure problem 
+
