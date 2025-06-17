@@ -49,4 +49,7 @@ You can't chain .property after console.dir(), because it doesn't return the obj
 
 
 TOday we will see some linklist data structure problem 
+The this keyword in JavaScript refers to the context in which a function is executed — it’s a way to access the object that is currently calling the function.
+
+Understanding this is very important for FAANG interviews, especially for object-oriented JS, event handling, and React class components.
 
