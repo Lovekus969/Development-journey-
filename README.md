@@ -34,6 +34,17 @@ Useful to insert/remove elements with structure.
 ⚠️ Can be a security risk if used with untrusted data.
 
 
+-------------------------Inside JS function Reduce ----------------------------------------------
+What is reduce()?
+reduce() is a higher-order function used to combine all elements of an array into a single value using a callback function.
+
+It’s powerful because it can:
+
+Calculate the  sum/product, Flatten arrays, Count occurreces ,Group data
+Implement map, filter, and more under the hood
+
+****
+
 
 
 Use textContent for raw, fast, and secure data extraction.
