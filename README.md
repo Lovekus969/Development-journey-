@@ -84,3 +84,8 @@ Generating formatted strings	join()
 
 ✅ Bonus (FAANG Edge):
 Understanding the subtle difference shows your awareness of JavaScript's prototypal inheritance and built-in method design. This helps in writing clean, readable, and performance-aware code in large systems.
+| Function  | Logic Like   | Returns `true` if...        |     |                               |
+| --------- | ------------ | --------------------------- | --- | ----------------------------- |
+| `some()`  | `OR` (\`     |                             | \`) | **Any** one condition is true |
+| `every()` | `AND` (`&&`) | **All** conditions are true |     |                               |
+
