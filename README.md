@@ -100,3 +100,5 @@ Understanding the subtle difference shows your awareness of JavaScript's prototy
 | `some()`  | `OR` (\`     |                             | \`) | **Any** one condition is true |
 | `every()` | `AND` (`&&`) | **All** conditions are true |     |                               |
 
+What is the Spread Operator ... in JavaScript?
+It’s used to unpack elements from an array (or object) — so you can copy, merge, or expand values individually.
