@@ -1,15 +1,18 @@
 # Development-journey-
-We will proceed from the  very intial phase . html to the entire journey of full stack all in one in this repo . and i will upload my entire notes up to date and in final i will upload the all of the notes and books which helps me to get out from this journey remember 
 
-Say “Hi” to pain, shake hands with it. This is my journey .
+Say “Hi” to pain, shake hands with it. This is my journey.
 
 
 
 
 
 Date: 31 May
-✅ Topic Covered: How Text Works in the DOM (JavaScript)
-🧠 What We Learned:
+Topic Covered: How Text Works in the DOM (JavaScript)
+What is the DOM in JavaScript?
+🔹 DOM = Document Object Model
+It’s a tree-like structure that represents the entire web page.
+JavaScript uses the DOM to interact with and manipulate HTML & CSS
+ What We Learned:
 textContent
 
 Returns all text, including hidden elements.
