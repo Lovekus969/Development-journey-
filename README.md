@@ -105,3 +105,16 @@ Understanding the subtle difference shows your awareness of JavaScript's prototy
 
 What is the Spread Operator ... in JavaScript?
 It’s used to unpack elements from an array (or object) — so you can copy, merge, or expand values individually.
+
+Q. Difference between innerText and textContent?.
+Both innerText and textContent are used in JavaScript to get or change the text inside an HTML element. But they are a little different.
+
+The innerText shows only the text that is visible on the screen. If some text is hidden using CSS (like display: none), innerText will not include that hidden text. On the other hand, textContent gives all the text, even if it is hidden. It does not care about styles.
+
+Also, textContent is usually faster, because it just reads the text without checking how the page looks. But innerText is slower because it looks at the styles and layout of the page.
+
+In short:
+
+Use innerText when you want to get only what the user can see.
+
+Use textContent when you want all the text, even if it’s hidden.
