@@ -118,6 +118,7 @@ In short:
 Use innerText when you want to get only what the user can see.
 
 Use textContent when you want all the text, even if it’s hidden.
+-------------------------------------------------------------------------------------  Time to Revision -----------------------------------------------------------------
 
  What are DOM Events?
 DOM events are actions or happenings that occur in the web page, which the browser can detect and respond to. For example, when a user clicks a button, moves the mouse, types on the keyboard, or submits a form, all these are called events. JavaScript can listen for these events and run some code when they happen. This makes the web page interactive.
