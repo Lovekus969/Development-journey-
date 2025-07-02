@@ -122,3 +122,13 @@ Use textContent when you want all the text, even if it’s hidden.
 
  What are DOM Events?
 DOM events are actions or happenings that occur in the web page, which the browser can detect and respond to. For example, when a user clicks a button, moves the mouse, types on the keyboard, or submits a form, all these are called events. JavaScript can listen for these events and run some code when they happen. This makes the web page interactive.
+
+
+
+2 July 2025 
+How Keydown Event Works in JavaScript.
+keydown is an event that triggers whenever a key on your keyboard is pressed down.
+
+              document.addEventLitesner("keydown", function(event) {
+                console.log("Key pressed:", event.key);
+              });
