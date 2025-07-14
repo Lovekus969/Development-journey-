@@ -1,5 +1,4 @@
-AI SUCCEED NO MATTER WHAT 
-I WIN NO MATTER WHAT # Development-journey-
+I dont loose i win , i win , i win and i win no matter what ...........................................
 
 Say “Hi” to pain, shake hands with it. This is my journey.
 
