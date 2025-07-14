@@ -1,4 +1,4 @@
-# Development-journey-
+I WIN NO MATTER WHAT # Development-journey-
 
 Say “Hi” to pain, shake hands with it. This is my journey.
 
