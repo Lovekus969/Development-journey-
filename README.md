@@ -4,12 +4,14 @@ Say “Hi” to pain, shake hands with it. This is my journey.
 
 
 Date 26th july 
-We are going to seee some js well function concepts as a notes and i will upload the pdf after .
-What does "JavaScript is single-threaded" mean?
+We are going to see some well-functioning JS concepts as notes, and I will upload the PDF after.
+Q1 . What does "JavaScript is single-threaded" mean?
 It means that JavaScript executes one piece of code at a time, on a single call stack, and in a specific order.
 
 There's only one "thread of execution" — think of it like a one-lane road:
 🛣 Only one car (function) can move through at a time.
+Q2. What is an API?
+API = Application Programming Interface. In web development, an API is usually a URL endpoint you can send a request to — and get back data, usually in JSON format.
 
 
 
