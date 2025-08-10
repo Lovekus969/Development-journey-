@@ -1,1 +1,13 @@
 Async and await 
+ What is an async function?
+An async function is a function that always returns a Promise.
+
+Inside an async function, you can use the await keyword to pause until a Promise settles (resolves or rejects).
+
+This makes asynchronous code look more like synchronous code.
+
+
+What is await?
+await is a keyword used inside async functions to pause execution until a Promise is settled (resolved or rejected).
+
+While it “pauses” your function, it doesn’t block the whole program — other code can still run in the background.
