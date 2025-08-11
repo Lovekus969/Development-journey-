@@ -20,3 +20,9 @@ When your app wants some data or action from another service, it sends a request
                     
                     Body: Data you send (for POST, PUT).
 
+
+Why JSON?
+            JSON (JavaScript Object Notation) is lightweight, easy to read/write, and easy for machines to parse.
+            
+            Almost every web API uses JSON because it works perfectly with JavaScript and many other languages.
+
