@@ -17,3 +17,6 @@ Improves readability by avoiding .then() and .catch() chains.Maintains logical o
 Q. What .then() is?
 
 ======>>>   .then() is a method available on Promise objects. It registers callback functions to be executed after the Promise settles (resolves or rejects).It returns a new Promise, which allows chaining
+
+
+ooooooooooooo-----> handle the error so that if the random number check fails, the rest of your await functions can still run without the whole program crashing.
