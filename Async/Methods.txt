@@ -13,3 +13,7 @@ While it “pauses” your function, it doesn’t block the whole program — ot
 
 Function of await in an async workflow
 Improves readability by avoiding .then() and .catch() chains.Maintains logical order for dependent async operations.Allows sequential or parallel async handling depending on use.
+
+Q. What .then() is?
+
+======>>>   .then() is a method available on Promise objects. It registers callback functions to be executed after the Promise settles (resolves or rejects).It returns a new Promise, which allows chaining
