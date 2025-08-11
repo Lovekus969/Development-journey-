@@ -26,3 +26,8 @@ Why JSON?
             
             Almost every web API uses JSON because it works perfectly with JavaScript and many other languages.
 
+What is the Twitter API?
+The Twitter API is a set of tools provided by Twitter that lets developers programmatically interact with Twitter’s platform.
+
+It allows your app or program to read and write Twitter data — like fetching tweets, posting tweets, following users, searching trends, and more.
+
