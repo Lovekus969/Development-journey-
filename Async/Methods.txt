@@ -9,5 +9,7 @@ This makes asynchronous code look more like synchronous code.
 
 What is await?
 await is a keyword used inside async functions to pause execution until a Promise is settled (resolved or rejected).
-
 While it “pauses” your function, it doesn’t block the whole program — other code can still run in the background.
+
+Function of await in an async workflow
+Improves readability by avoiding .then() and .catch() chains.Maintains logical order for dependent async operations.Allows sequential or parallel async handling depending on use.
