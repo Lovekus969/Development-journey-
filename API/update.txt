@@ -2,3 +2,10 @@ kind of request handle by just like a water in the restaurent which bring from u
 
 Q..What is an API?
 API stands for Application Programming Interface.It’s a set of rules and protocols that allow different software applications to communicate with each other.Think of it as a waiter between you (the client) and the kitchen (the server). You place an order (request), and the waiter brings back your food (response).
+
+Types of APIs:
+Web APIs: Communicate over HTTP/HTTPS, commonly used in web apps.
+Library APIs: Methods you call inside code libraries.
+Operating System APIs: Like Windows API for OS-level stuff.
+
+
