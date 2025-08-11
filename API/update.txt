@@ -9,3 +9,14 @@ Library APIs: Methods you call inside code libraries.
 Operating System APIs: Like Windows API for OS-level stuff.
 
 
+Q.. What is an API Request?
+When your app wants some data or action from another service, it sends a request.
+
+                    Method: GET, POST, PUT, DELETE, etc.
+                    
+                    URL: Endpoint you’re requesting from.
+                    
+                    Headers: Extra info like auth tokens.
+                    
+                    Body: Data you send (for POST, PUT).
+
