@@ -1,0 +1,10 @@
+{
+  "id": 101,
+  "name": "Bhavneet",
+  "courses": ["OOP", "DSA", "Web Development"],
+  "grades": {
+    "OOP": "A",
+    "DSA": "B+",
+    "Web Development": "A-"
+  }
+}
