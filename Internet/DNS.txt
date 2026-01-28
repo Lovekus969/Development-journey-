@@ -1,0 +1,12 @@
+DNS – “Phonebook of the Internet”
+        DNS = Domain Name System
+
+It converts:
+        www.google.com → 142.250.xxx.xxx
+
+
+Flow:
+      
+      Browser asks DNS: “Who is google.com?”
+      DNS replies with IP
+      Browser now knows where to go
