@@ -1,6 +1,6 @@
 DNS – “Phonebook of the Internet”
         DNS = Domain Name System
-
+visit : https://www.nslookup.io/domains/google.com/dns-records/
 It converts:
         www.google.com → 142.250.xxx.xxx
 
