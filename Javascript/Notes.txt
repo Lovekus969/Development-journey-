@@ -1,0 +1,8 @@
+What Is JavaScript?
+  JavaScript (JS) is the programming language of the web.
+
+If:  HTML = structure
+  CSS = design
+  JavaScript = behavior + logic
+  JavaScript makes websites interactive.
+
