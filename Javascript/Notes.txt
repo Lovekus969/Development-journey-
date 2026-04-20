@@ -6,3 +6,5 @@ If:  HTML = structure
   JavaScript = behavior + logic
   JavaScript makes websites interactive.
 
+DOM event handler is important 
+
