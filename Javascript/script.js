@@ -1,5 +1,6 @@
-console.log();
-let age =10;
-age = age +10;
-age =20;
-console.log(age);
+let age = 10;
+
+function increaseAge() {
+  age = age + 1;
+  console.log(age);
+}
