@@ -32,3 +32,7 @@ That means JavaScript can interact with things that browser JavaScript tradition
 What is a global object?
 
 A global object is an object that provides things that are available throughout the JavaScript environment.
+
+In the browser → window
+
+When JavaScript runs inside a browser such as Chrome, the browser provides a global object called:
