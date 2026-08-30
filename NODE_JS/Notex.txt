@@ -28,3 +28,7 @@ Node.js allows JavaScript to run outside the browser:
         JavaScript
 
 That means JavaScript can interact with things that browser JavaScript traditionally doesn't directly control.
+
+What is a global object?
+
+A global object is an object that provides things that are available throughout the JavaScript environment.
