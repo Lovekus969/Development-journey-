@@ -1,0 +1,12 @@
+What is node js ? 
+Node js is runtime environment for the javascript server .
+What is REPL?
+
+REPL = Read → Evaluate → Print → Loop
+
+It is an interactive environment where Node.js reads your JavaScript, executes it immediately, prints the result, and waits for your next command.
+Node.js is more than the REPL.
+
+Node.js is a JavaScript runtime.
+
+Normally, JavaScript was primarily associated with browsers.
