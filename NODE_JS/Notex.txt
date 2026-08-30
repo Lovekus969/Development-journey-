@@ -10,3 +10,21 @@ Node.js is more than the REPL.
 Node.js is a JavaScript runtime.
 
 Normally, JavaScript was primarily associated with browsers.
+
+For example:
+
+        Chrome
+           ↓
+        JavaScript Engine
+           ↓
+        JavaScript code
+
+Node.js allows JavaScript to run outside the browser:
+
+        Terminal / Server
+               ↓
+            Node.js
+               ↓
+        JavaScript
+
+That means JavaScript can interact with things that browser JavaScript traditionally doesn't directly control.
