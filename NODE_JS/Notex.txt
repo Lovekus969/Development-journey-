@@ -36,3 +36,15 @@ A global object is an object that provides things that are available throughout 
 In the browser → window
 
 When JavaScript runs inside a browser such as Chrome, the browser provides a global object called:
+
+global doesn't "contain everything in Node.js." It represents the global object for the Node.js runtime and provides access to certain globally available values/functions.
+BROWSER                         NODE.JS
+
+window                          global
+  │                               │
+  ├── console                     ├── console
+  ├── setTimeout                  ├── setTimeout
+  ├── document                    ├── process
+  ├── location                    ├── Buffer
+  ├── navigator                   └── ...
+  └── ...
