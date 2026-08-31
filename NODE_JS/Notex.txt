@@ -75,3 +75,7 @@ global = things Node makes available globally without  having to import them.
     .clear                           .save
     .exit
     .help
+
+Definition of process in Node.js
+
+process is a built-in global object in Node.js that provides information and control over the currently running Node.js program (process).
