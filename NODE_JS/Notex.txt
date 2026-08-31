@@ -48,3 +48,30 @@ window                          global
   ├── location                    ├── Buffer
   ├── navigator                   └── ...
   └── ...
+
+
+                 Node.js
+                    │
+          ┌─────────┴─────────┐
+          ↓                   ↓
+       GLOBAL              MODULES
+          │                   │
+    ┌─────┼─────┐       ┌─────┼─────┐
+    ↓     ↓     ↓       ↓     ↓     ↓
+ console  timer process    fs   http  path
+
+
+global = things Node makes available globally without  having to import them.
+
+                    NODE REPL
+                       │
+                     .help
+                       │
+       ┌───────────────┼────────────────┐
+       │               │                │
+    Control          Code             Files
+       │               │                │
+    .break          .editor          .load
+    .clear                           .save
+    .exit
+    .help
