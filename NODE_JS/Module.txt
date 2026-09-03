@@ -9,3 +9,12 @@ Node.js has two major module systems:
               |                 |
            import             require()
            export          module.exports
+
+ES MODULE
+
+Therefore:
+
+          import figlet from "figlet";
+
+works.
+
