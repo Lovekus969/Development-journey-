@@ -1,0 +1,11 @@
+Node.js has two major module systems:
+
+                 JavaScript file
+                       |
+              ┌────────┴────────┐
+              ↓                 ↓
+          ES Module          CommonJS
+           (Module)        (non-ESM)
+              |                 |
+           import             require()
+           export          module.exports
