@@ -1,0 +1,15 @@
+package.json is a configuration file used in JavaScript and Node.js projects. It contains important information about your project and tells tools like npm how to manage it.
+
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "description": "A simple Node.js application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"No tests yet\""
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
