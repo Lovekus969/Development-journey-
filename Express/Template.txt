@@ -17,3 +17,8 @@ Template = HTML page + placeholders for dynamic data.
       <h1>Welcome Raj</h1>
 2. Example using EJS.
 Ans: One popular Express template engine is EJS (Embedded JavaScript Templates).
+
+
+
+Enable EJS from extention in the visual studio code https://marketplace.visualstudio.com/items?itemName=DigitalBrainstem.javascript-ejs-support
+
