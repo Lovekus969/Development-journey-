@@ -1,0 +1,19 @@
+In Express.js, a template is a file that defines the HTML structure of a webpage, where you can dynamically insert data from your server.
+
+Think of it like:
+
+Template = HTML page + placeholders for dynamic data.
+
+1. Why do we need templates?
+
+  Suppose your Express server has a list of users:
+  
+    const users = ["Kush", "Aman", "Raj"];
+    
+    Instead of manually creating HTML like:
+
+      <h1>Welcome Kush</h1>
+      <h1>Welcome Aman</h1>
+      <h1>Welcome Raj</h1>
+2. Example using EJS.
+Ans: One popular Express template engine is EJS (Embedded JavaScript Templates).
