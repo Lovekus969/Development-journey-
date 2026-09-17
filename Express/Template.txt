@@ -39,3 +39,17 @@ EJS TAGS :------
 | `_%>`        | Whitespace Slurping | Removes whitespace **after** the tag              |
 
 
+
+Express
+   ↓
+res.render("home", data)
+   ↓
+EJS receives data
+   ↓
+EJS executes <% JavaScript %>
+   ↓
+EJS inserts <%= values %>
+   ↓
+HTML is generated
+   ↓
+Browser receives HTML
