@@ -24,4 +24,18 @@ Enable EJS from extention in the visual studio code
 
 Go to link 
 https://marketplace.visualstudio.com/items?itemName=DigitalBrainstem.javascript-ejs-support
+EJS TAGS :------
+
+| Tag          | Name                | What it does                                      |
+| ------------ | ------------------- | ------------------------------------------------- |
+| `<% ... %>`  | Scriptlet           | Runs JavaScript, **doesn't display** result       |
+| `<%_ ... %>` | Whitespace Slurping | Runs JS and removes whitespace **before** the tag |
+| `<%= ... %>` | Escaped Output      | Displays a value, **HTML-escaped**                |               :Example : <%= 2+4  %> Expected output be 6 
+| `<%- ... %>` | Unescaped Output    | Displays a value **without HTML escaping**        |
+| `<%# ... %>` | Comment             | Comment for EJS, **not executed/output**          |
+| `<%%`        | Literal EJS         | Displays literal `<%`                             |
+| `%>`         | Ending Tag          | Ends an EJS block                                 |
+| `-%>`        | Newline Slurping    | Removes the newline immediately after the tag     |
+| `_%>`        | Whitespace Slurping | Removes whitespace **after** the tag              |
+
 
