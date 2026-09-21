@@ -1,0 +1,9 @@
+
+    Important concept 
+|                      | GET                       | POST             |
+| -------------------- | ------------------------- | ---------------- |
+| Purpose              | Retrieve/request data     | Send/submit data |
+| Express              | `app.get()`               | `app.post()`     |
+| Common data location | `req.params`, `req.query` | `req.body`       |
+| HTML form            | `method="GET"`            | `method="POST"`  |
+| Example              | `/ig/cats`                | `/login`         |
