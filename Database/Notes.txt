@@ -1,1 +1,38 @@
 DataBase Management System DBMS
+
+What are Constraints in sql 
+Constraints in SQL are rules applied to table columns to keep data valid and consistent.
+For example, in a banking database, constraints can prevent duplicate account numbers, missing customer names, or negative balances.
+Constraint	Purpose	Example
+NOT NULL	Requires a value; prevents NULL	Customer name must be provided
+UNIQUE	Prevents duplicate values	Each email must be unique
+PRIMARY KEY	Uniquely identifies each row; combines uniqueness with NOT NULL	Customer ID
+FOREIGN KEY	Links tables and enforces valid references	An account references an existing customer
+CHECK	Requires a condition to be satisfied	Balance must be ≥ 0
+DEFAULT	Supplies a value when one is omitted	Initial balance is 0
+
+
+Here is a MySQL example:
+CREATE TABLE Customers (
+    customer_id INT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    email VARCHAR(100) UNIQUE
+);
+
+CREATE TABLE Accounts (
+    account_id INT PRIMARY KEY,
+    customer_id INT NOT NULL,
+    balance DECIMAL(12, 2) NOT NULL DEFAULT 0,
+
+    CHECK (balance >= 0),
+
+    FOREIGN KEY (customer_id)
+        REFERENCES Customers(customer_id)
+);
+
+How these rules work:
+- Inserting a customer without a name fails.
+- Reusing an existing customer_id fails.
+- Inserting a negative balance fails.
+- Creating an account for a nonexistent customer fails.
+- Omitting the balance gives it the default value 0.
